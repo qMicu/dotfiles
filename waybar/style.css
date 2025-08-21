@@ -1,0 +1,99 @@
+* {
+  font-family: "JetBrainsMono Nerd Font Propo", "Material Symbols Rounded";
+  color: #dfbaa5;
+  background: transparent;
+}
+
+window#waybar {
+  background: rgba(30, 30, 30, 0);
+  border-radius: 12px;
+  border: 0px solid rgba(200, 200, 200, 0);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+  padding: 0 8px;
+  font-size: 14px;
+}
+
+#workspaces{
+  border-radius: 12px;
+  background-color: rgba(117, 82, 70, 0.6);
+}
+
+
+#workspaces button {
+  padding: 0 8px;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+  font-size: 24px;
+  
+}
+
+#workspaces button.active {
+  box-shadow: inset 0px 0px 0px 4px rgba(182, 111, 84, 0.5);
+}
+
+#clock,
+#pulseaudio,
+#network{
+  margin: 0 8px;
+  padding: 0 8px;
+  border-radius: 8px;
+  background-color: rgba(117, 82, 70, 0.6);
+}
+
+#clock{
+  font-size: 16px;
+}
+
+#pulseaudio,
+#network{
+  font-size: 18px;
+}
+
+#custom-swaync {
+  margin: 0 8px;
+  padding: 0 8px;
+  border-radius: 8px;
+  background-color: rgba(117, 82, 70, 0.6);
+  font-size: 18px;
+}
+
+#custom-music {
+  margin: 0 8px;
+  padding: 0 8px;
+  border-radius: 8px;
+  background-color: rgba(117, 82, 70, 0.6);
+  font-size: 16px;
+}
+
+#custom-cava {
+  font-size: 16px;
+  font-family: "JetBrainsMono Nerd Font Propo";
+  color: #dfbaa5;
+  background-color: rgba(117, 82, 70, 0.6);
+  padding: 0 8px;
+  margin: 0 8px;
+  border-radius: 8px;
+}
+
+#custom-cover-art image {
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 6px;
+}
+
+#custom-shutdown {
+  margin: 0 8px;
+  padding: 0 8px;
+  border-radius: 8px;
+  background-color: rgba(200, 60, 60, 0.6); /* roșu desaturat */
+  font-size: 18px;
+  color: #ffffff;
+}
+
+
+
+
+
